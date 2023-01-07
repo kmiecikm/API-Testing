@@ -1,0 +1,372 @@
+{
+	"info": {
+		"_postman_id": "f46308c3-84f8-42f3-99cd-6a62cdfeb728",
+		"name": "Magdalena Kmieck - Authorization with Postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23246531"
+	},
+	"item": [
+		{
+			"name": "Basic Auth Test",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "p71280727-0",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "secretpassword",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://testtraining.org/basicauth/index.html",
+					"protocol": "https",
+					"host": [
+						"testtraining",
+						"org"
+					],
+					"path": [
+						"basicauth",
+						"index.html"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Basic Auth Test",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testtraining.org/basicauth/index.html",
+							"protocol": "https",
+							"host": [
+								"testtraining",
+								"org"
+							],
+							"path": [
+								"basicauth",
+								"index.html"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 07 Jan 2023 18:41:27 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Last-Modified",
+							"value": "Mon, 09 Sep 2019 15:16:22 GMT"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=qycWGA832KTYs8VoOIvOZ7UMITye8M%2FJa9ABVjFtkJVjNTj5IxOqu9p4ZaZLemC6AUdiAhEjveYQpQllKWUtqjkVS%2FEVevKuby%2BeOFqTpOsSloaGr3GuZWwskTXkGv0S%2BNCn\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "785ed3e0fa83bf35-WAW"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html>\n    <title>TestTraining.org</title>\n    <body>\n        <h1>TestTraining.org</h1>\n        <p>index.html</p>\n    </body>\n</html>"
+				}
+			]
+		},
+		{
+			"name": "GET request bearer",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "GET request bearer",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testtraining.org/bearerauth.php",
+							"protocol": "https",
+							"host": [
+								"testtraining",
+								"org"
+							],
+							"path": [
+								"bearerauth.php"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 07 Jan 2023 18:38:10 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.13"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=OuE95PApQgjHNEn%2BxcKP%2F7eu%2BMSuAmii7oZYCsxQ771TQr3QTi6mMAX%2BtRqbVn7mqng3x89%2B9CINXCzgidxRi1%2Bw%2FLmt2No0Iyaj9Mtt1yvVTNJ7u3u8PdrH%2Ffs4JVb4StFZ\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "785ecf13f96abf35-WAW"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "Authenticated!"
+				}
+			]
+		},
+		{
+			"name": "POST file example",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "user",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "secretpassword",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://testtraining.org/login.php",
+					"protocol": "https",
+					"host": [
+						"testtraining",
+						"org"
+					],
+					"path": [
+						"login.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "POST file example",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "username",
+									"value": "user",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "secretpassword",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://testtraining.org/login.php",
+							"protocol": "https",
+							"host": [
+								"testtraining",
+								"org"
+							],
+							"path": [
+								"login.php"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 07 Jan 2023 18:36:47 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.13"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=MQnHbsq7aJg2VXoi8CjUJR6RQrE295OnNMJSG81C10MVe3cWtPt%2FnDdm%2BC%2BqX%2Fd%2FsSEkfGl8guXCVlnbIcKtzNDUNi3FT0fzo%2BWWfOEX9O4Fy%2BIJP7dK6E5jTJRK%2BIPZjWdp\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "785ecd0c6a7bbf35-WAW"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "EXAMPLETOKEN"
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
