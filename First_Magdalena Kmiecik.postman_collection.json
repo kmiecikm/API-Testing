@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "b2c65581-8f38-4b8f-9010-e25c46f5c33e",
+		"name": "New Collection Magdalena Kmiecik",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23246531"
+	},
+	"item": [
+		{
+			"name": "GET example",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "GET example",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testtraining.org/data.txt",
+							"protocol": "https",
+							"host": [
+								"testtraining",
+								"org"
+							],
+							"path": [
+								"data.txt"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 07 Jan 2023 17:34:57 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Last-Modified",
+							"value": "Sat, 07 Jan 2023 15:01:49 GMT"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"ab5a45f8a822d91:0\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=0ZnELhEP9NE6jfxsp3VpFsgiBXwzTQU33j5bJrZcnD%2BZMPqMuksDNCXtOF8YF7RYCVuo%2B8JYsE%2FW9LwpNqPmq9sb2FiKTjb001tMAF8BQCFG5XgKsn2hXBTSbMNjSJN81ipU\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "785e727b7f1bfc83-WAW"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "a,Charlie, d"
+				}
+			]
+		},
+		{
+			"name": "Example_request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "Example_request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://example.com",
+							"protocol": "https",
+							"host": [
+								"example",
+								"com"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Age",
+							"value": "20947"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "max-age=604800"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 07 Jan 2023 17:36:10 GMT"
+						},
+						{
+							"key": "Etag",
+							"value": "\"3147526947+gzip\""
+						},
+						{
+							"key": "Expires",
+							"value": "Sat, 14 Jan 2023 17:36:10 GMT"
+						},
+						{
+							"key": "Last-Modified",
+							"value": "Thu, 17 Oct 2019 07:18:26 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "ECS (bsa/EB11)"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Cache",
+							"value": "HIT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "648"
+						}
+					],
+					"cookie": [],
+					"body": "<!doctype html><html><head><title>Example Domain</title><meta charset=\"utf-8\" /><meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /><style type=\"text/css\">\n    body {\n        background-color: #f0f0f2;\n        margin: 0;\n        padding: 0;\n        font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n        \n    }\n    div {\n        width: 600px;\n        margin: 5em auto;\n        padding: 2em;\n        background-color: #fdfdff;\n        border-radius: 0.5em;\n        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);\n    }\n    a:link, a:visited {\n        color: #38488f;\n        text-decoration: none;\n    }\n    @media (max-width: 700px) {\n        div {\n            margin: 0 auto;\n            width: auto;\n        }\n    }\n    </style></head><body><div><h1>Example Domain</h1><p>This domain is for use in illustrative examples in documents. You may use this\n    domain in literature without prior coordination or asking for permission.</p><p><a href=\"https://www.iana.org/domains/example\">More information...</a></p></div></body></html>\n"
+				}
+			]
+		}
+	]
+}
