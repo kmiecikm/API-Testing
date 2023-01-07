@@ -7,10 +7,21 @@
 	},
 	"item": [
 		{
-			"name": "GET example",
+			"name": "GET request example",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://testtraining.org/data.txt",
+					"protocol": "https",
+					"host": [
+						"testtraining",
+						"org"
+					],
+					"path": [
+						"data.txt"
+					]
+				}
 			},
 			"response": [
 				{
@@ -97,6 +108,176 @@
 					],
 					"cookie": [],
 					"body": "a,Charlie, d"
+				},
+				{
+					"name": "GET request example",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testtraining.org/data.txt",
+							"protocol": "https",
+							"host": [
+								"testtraining",
+								"org"
+							],
+							"path": [
+								"data.txt"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 07 Jan 2023 17:54:33 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Last-Modified",
+							"value": "Sat, 07 Jan 2023 17:51:16 GMT"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"88d23fa4c022d91:0\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=63QMY9bh44x9lc7bpNKEzOOuNwX8qJBVtub12ml4fpuKeA1LU%2BpnbA05aYR%2FbgFpur8bsLutMobLVPx9ynvpI0xirXxbZuDRdglgxNDUNooHgOjrktyHxhFWQgdMUs4Mxu7P\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "785e8f2e1bacbf3f-WAW"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "a, b,Sophia, d"
+				},
+				{
+					"name": "GET request example",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testtraining.org/data.txt",
+							"protocol": "https",
+							"host": [
+								"testtraining",
+								"org"
+							],
+							"path": [
+								"data.txt"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 07 Jan 2023 18:09:07 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Last-Modified",
+							"value": "Sat, 07 Jan 2023 18:09:04 GMT"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"35536d20c322d91:0\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=eXdgVcIoSLsAcZ14Z5iup6f%2Feqo%2B6IVo6zZSn184xw1txxu4lEzHsVRW9MkQhtegaBOxQOStLQ9F8xXinQmaY7ph6sg69Wmqn3QVLx51KbdAROMDaVJ8td7PI20XaMeNbbnM\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "785ea486cc4afc83-WAW"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "a, d"
 				}
 			]
 		},
@@ -104,7 +285,15 @@
 			"name": "Example_request",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://example.com",
+					"protocol": "https",
+					"host": [
+						"example",
+						"com"
+					]
+				}
 			},
 			"response": [
 				{
@@ -123,7 +312,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "html",
+					"_postman_previewlanguage": "json",
 					"header": [
 						{
 							"key": "Content-Encoding",
@@ -178,6 +367,191 @@
 					"body": "<!doctype html><html><head><title>Example Domain</title><meta charset=\"utf-8\" /><meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /><style type=\"text/css\">\n    body {\n        background-color: #f0f0f2;\n        margin: 0;\n        padding: 0;\n        font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n        \n    }\n    div {\n        width: 600px;\n        margin: 5em auto;\n        padding: 2em;\n        background-color: #fdfdff;\n        border-radius: 0.5em;\n        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);\n    }\n    a:link, a:visited {\n        color: #38488f;\n        text-decoration: none;\n    }\n    @media (max-width: 700px) {\n        div {\n            margin: 0 auto;\n            width: auto;\n        }\n    }\n    </style></head><body><div><h1>Example Domain</h1><p>This domain is for use in illustrative examples in documents. You may use this\n    domain in literature without prior coordination or asking for permission.</p><p><a href=\"https://www.iana.org/domains/example\">More information...</a></p></div></body></html>\n"
 				}
 			]
+		},
+		{
+			"name": "PUT request example",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "a, b, c, d"
+				},
+				"url": {
+					"raw": "https://testtraining.org/putdata.php",
+					"protocol": "https",
+					"host": [
+						"testtraining",
+						"org"
+					],
+					"path": [
+						"putdata.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PATCH request example",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "2=Sophia"
+				},
+				"url": {
+					"raw": "https://testtraining.org/patchdata.php",
+					"protocol": "https",
+					"host": [
+						"testtraining",
+						"org"
+					],
+					"path": [
+						"patchdata.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST request example",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first name",
+							"value": "Magdalena",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Lublin",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://testtraining.org/postform.php",
+					"protocol": "https",
+					"host": [
+						"testtraining",
+						"org"
+					],
+					"path": [
+						"postform.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "POST request example",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "first name",
+									"value": "Magdalena",
+									"type": "text"
+								},
+								{
+									"key": "city",
+									"value": "Lublin",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://testtraining.org/postform.php",
+							"protocol": "https",
+							"host": [
+								"testtraining",
+								"org"
+							],
+							"path": [
+								"postform.php"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 07 Jan 2023 18:04:33 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.13"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=DENKCjpSzFBrvjWBC5PGWXiraIDdXn4tUmp2bcI0eBND4GeDOhRK9yVvEYymzscVWDBAJ8CyRQydXQzinWXovvjJD0lF0SpWuGRDI%2BxKtX3QTJ64SaiMHf0ipJ5IDin40L1f\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "785e9dd42dcffc83-WAW"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "<!doctype html><html><head><title>Form</title></head><body><h3>POST form</h3><form action=\"#\" method=\"POST\"><input type=\"text\" name=\"firstname\">&nbsp;First&nbsp;name<br/><input type=\"text\" name=\"city\">&nbsp;City<br/><input type=\"submit\" value=\"Submit\">\r\n    </form>\r\n  </body>\r\n</html>"
+				}
+			]
+		},
+		{
+			"name": "DELETE request example",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
