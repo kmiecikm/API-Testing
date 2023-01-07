@@ -1,0 +1,26 @@
+{
+	"info": {
+		"_postman_id": "b2c65581-8f38-4b8f-9010-e25c46f5c33e",
+		"name": "New Collection Magdalena Kmiecik",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23246531"
+	},
+	"item": [
+		{
+			"name": "GET example",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Example_request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
