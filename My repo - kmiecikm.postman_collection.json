@@ -1,0 +1,583 @@
+{
+	"info": {
+		"_postman_id": "35d90fd9-8772-4232-846b-95df758bc08c",
+		"name": "My repo - kmiecikm",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23246531"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-json-server.typicode.com/kmiecikm/repo-Postman/posts",
+					"protocol": "https",
+					"host": [
+						"my-json-server",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"kmiecikm",
+						"repo-Postman",
+						"posts"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GET example",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://my-json-server.typicode.com/kmiecikm/repo-Postman/posts",
+							"protocol": "https",
+							"host": [
+								"my-json-server",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"kmiecikm",
+								"repo-Postman",
+								"posts"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 10 Jan 2023 14:00:32 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "45"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin, Accept-Encoding"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "-1"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"2d-nKTVgMeeIjJmCLrZYALEgCdHa5g\""
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Server-Timing",
+							"value": "cf-q-config;dur=6.0000000985383e-06"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=bopUIsfZimoai8fsttetLKVPP3%2FAuyDU1PL4pFDEp5SD1rB%2Fy8UnJhxG1Em2bof1pv4rXRM9Jj8WVz0YsfKlwp0fAhEQ9HHQeEfOM7QDz2eJ%2Fi44qSUwQDYmKNgMfTxhDb1IJzlOHBrUlJYdfXM%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "7875f080ff2cbfc8-WAW"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"title\": \"hello\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "title",
+							"value": "hi hi",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://my-json-server.typicode.com/kmiecikm/repo-Postman/posts/2",
+					"protocol": "https",
+					"host": [
+						"my-json-server",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"kmiecikm",
+						"repo-Postman",
+						"posts",
+						"2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "POST example",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "title",
+									"value": "nice to see you",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://my-json-server.typicode.com/kmiecikm/repo-Postman/posts",
+							"protocol": "https",
+							"host": [
+								"my-json-server",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"kmiecikm",
+								"repo-Postman",
+								"posts"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 10 Jan 2023 19:55:27 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "45"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin, X-HTTP-Method-Override, Accept-Encoding"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "-1"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": "Location"
+						},
+						{
+							"key": "Location",
+							"value": "http://my-json-server.typicode.com/kmiecikm/repo-Postman/posts/2"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"2d-mvJgfd9wy7zB+soFPBcJLcDwXZ0\""
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Server-Timing",
+							"value": "cf-q-config;dur=8.999999408843e-06"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=FGm1fHSsd5pjZfm4NBK2iFRurTE4LloI%2Bl5dAhvO%2B5JBuLFLtDpU4SIvd1eHre2r8UufcsPtMCEBX%2BmRopO%2B8hgl%2BVNPXHPOylwMJgVLhZ6kleDHP3wxkNgGgE8VYGDqnlQzsAa5ulkoijQ6jsw%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "7877f8691de5bf83-WAW"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"2\",\n    \"title\": \"nice to see you\"\n}"
+				},
+				{
+					"name": "POST example",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "title",
+									"value": "how are you",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://my-json-server.typicode.com/kmiecikm/repo-Postman/posts",
+							"protocol": "https",
+							"host": [
+								"my-json-server",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"kmiecikm",
+								"repo-Postman",
+								"posts"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 10 Jan 2023 19:55:59 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "41"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin, X-HTTP-Method-Override, Accept-Encoding"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "-1"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": "Location"
+						},
+						{
+							"key": "Location",
+							"value": "http://my-json-server.typicode.com/kmiecikm/repo-Postman/posts/3"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"29-5pFviCV/Lz5t4/SsTaGKVkSrSuE\""
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Server-Timing",
+							"value": "cf-q-config;dur=6.0000002122251e-06"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=ebBtaYueTBf1KFuhl%2BXnSfDcO2DZU5reAvWqQFQKIuBvpL5hJqlg%2BLJpztGiTSb6B70Ips8Jerlk4WPl1xeJZp4VY6is9ATfEGtTi0NohJ0%2BdeTC95VUng06cwSisGFN2jV28gSbNYgzGIvNE1o%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "7877f92e5a7fbf83-WAW"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"3\",\n    \"title\": \"how are you\"\n}"
+				}
+			]
+		},
+		{
+			"name": "PUT-2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "a, b, c, d\r\n"
+				},
+				"url": {
+					"raw": "https://my-json-server.typicode.com/kmiecikm/repo-Postman/posts/1",
+					"protocol": "https",
+					"host": [
+						"my-json-server",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"kmiecikm",
+						"repo-Postman",
+						"posts",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "PUT-2",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "a, b, c, d\r\n"
+						},
+						"url": {
+							"raw": "https://my-json-server.typicode.com/kmiecikm/repo-Postman/posts/1",
+							"protocol": "https",
+							"host": [
+								"my-json-server",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"kmiecikm",
+								"repo-Postman",
+								"posts",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 10 Jan 2023 19:52:46 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "13"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin, Accept-Encoding"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "-1"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"d-p13Thq1mbIznE8TsFv4BmW8SRpg\""
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Server-Timing",
+							"value": "cf-q-config;dur=4.9999998736894e-06"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=Nqqic%2FBidH6Oog5wtlukIRXpWHlQhJSX9O3u5Jh5%2BS1K43cTpYej3VRZo9LifA4DmJnJngICDi1Tf4SJKYHbXUEyHmKXzyrV7uMsgtILGxqfNOyBlYoF4u7wROTxY%2FbcSm9p%2B1c1puRJw60q04U%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "7877f4773b4cbf83-WAW"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 1\n}"
+				}
+			]
+		}
+	]
+}
